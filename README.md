@@ -16,9 +16,8 @@ Unity download: https://unity3d.com/get-unity/download
 
 NOTE: If you use an Apple Silicon mac, you must use the Unity Hub Beta version (enable beta inside Unity Hub) to find Unity 2022 in the list of available installs.
 
-### 3. Download and install sourcetree as a git client.
-### 4. Clone the git repo in sourcetree
+### 3. Download and install VS Code for a code editor
+### 4. Clone the git repo
 1. This is the git link https://github.com/bcc-code/buk-tech-social.git
-2. Or we can just download the ZIP?
 ### 5. Load the project in Unity using Unity Hub
 1. Run the game and see if it all works.
