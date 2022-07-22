@@ -23,7 +23,7 @@ NOTE: If you use an Apple Silicon mac, you must use the Unity Hub Beta version (
 
 
 
-## Setting up the environment
+## Setting up the environment - Windows
 
 ### 1. Download and install Git  
 1. Download GIT from the following link: https://git-scm.com/downloads
