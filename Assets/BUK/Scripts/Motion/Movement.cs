@@ -33,7 +33,8 @@ namespace Buk.Motion
       collider = GetComponent<CapsuleCollider>();
       camera = GetComponentInChildren<Camera>();
       body = collider.attachedRigidbody;
-      if (jump != null) {
+      if (jump != null)
+      {
         jump.performed += Jump;
       }
       move?.Enable();
@@ -53,7 +54,8 @@ namespace Buk.Motion
     public void FixedUpdate()
     {
       var newOnGround = Physics.SphereCast(transform.position, collider.bounds.extents.x * 0.9f, Vector3.down, out var _, collider.bounds.extents.y * 1.1f);
-      if (onGround != newOnGround) {
+      if (onGround != newOnGround)
+      {
         onGround = newOnGround;
       };
       // Rotate character in VR using controller, this value is always zero if using mouse look on the PC.
@@ -80,8 +82,10 @@ namespace Buk.Motion
       }
     }
 
-    public void OnDestroy() {
-      if (jump != null) {
+    public void OnDestroy()
+    {
+      if (jump != null)
+      {
         jump.performed -= Jump;
       }
     }
