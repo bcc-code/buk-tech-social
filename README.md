@@ -43,3 +43,22 @@ Install it using your package manager. On Debian based systems including Ubuntu 
 ### Load the project in Unity using Unity Hub
 
 Press the play button to play-test the scene and see whether it works.
+
+
+### World building
+
+To erase the world and build your own world:
+- First erase the existing world: Delete the _MAST_Holder_ object from the scene hierarchy.
+- Click _Tools_ » _MAST_ » _Open MAST Window_
+- In the MAST window, click the folder icon in the bottom left corner to load prefabs.
+- Choose one of the folders in _Assets/FSP/_ folder. For example _Modular Terrain_ and click _Open_
+- Click one of the loaded prefabs in the MAST window to select it.
+- Click in the world view to place a copy of the prefab.
+- Now you can build your own world!
+
+#### MAST Hotkeys
+
+To change the height of the drawing grid, press <kbd>Shift</kbd><kbd>W</kbd> and <kbd>Shift</kbd><kbd>S</kbd>.  
+To rotate what you are drawing press <kbd>Space</kbd>.  
+To mirror what you are drawing press <kbd>F</kbd>.  
+To hide the MAST grid, press <kbd>G</kbd>.  
